@@ -1,4 +1,4 @@
-Contract Name,Last Trade Date, Strike , Last Price , Bid , Ask , Change ,% Change, Volume , Open Interest ,Implied Volatility
+Contract Name,Last Trade Date,Strike,Last Price,Bid,Ask,Change,% Change,Volume,Open Interest,Implied Volatility
 CCL220902C00003000,2022-07-29 3:55PM EDT, 3.00 , 6.05 , 8.00 , 8.15 , -   ,-, 4.00 , 2.00 ,0.00%
 CCL220902C00005500,2022-08-12 3:04PM EDT, 5.50 , 5.18 , 5.55 , 5.65 , -   ,-, - , 1.00 ,0.00%
 CCL220902C00006000,2022-07-22 12:06PM EDT, 6.00 , 3.60 , 5.05 , 5.15 , -   ,-, 1.00 , 1.00 ,0.00%
@@ -24,7 +24,7 @@ CCL220902C00015500,2022-08-12 9:31AM EDT, 15.50 , 0.04 , 0.04 , 0.05 , -   ,-, 3
 CCL220902C00016000,2022-08-16 1:13PM EDT, 16.00 , 0.04 , 0.03 , 0.04 , 0.01 ,33.33%, 1.00 , 10.00 ,88.28%
 CCL220902C00018000,2022-08-15 10:59AM EDT, 18.00 , 0.02 , 0.02 , 0.03 , -   ,-, 65.00 , 94.00 ,104.69%
 "PutsforSeptember 2, 2022",,,,,,,,,,
-Contract Name,Last Trade Date, Strike , Last Price , Bid , Ask , Change ,% Change, Volume , Open Interest ,Implied Volatility
+Contract Name,Last Trade Date,Strike,Last Price,Bid,Ask,Change,% Change,Volume,Open Interest,Implied Volatility
 CCL220902P00003000,2022-08-05 11:29AM EDT, 3.00 , 0.02 , -   , 0.03 , -   ,-, 15.00 , 145.00 ,265.63%
 CCL220902P00003500,2022-08-01 10:45AM EDT, 3.50 , 0.01 , -   , 0.03 , -   ,-, - ," 1,020.00 ",237.50%
 CCL220902P00004000,2022-08-02 1:34PM EDT, 4.00 , 0.05 , -   , 0.03 , -   ,-, 1.00 , 39.00 ,209.38%
