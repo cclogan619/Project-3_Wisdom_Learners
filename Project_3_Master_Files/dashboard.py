@@ -1,13 +1,12 @@
 import streamlit as st
 import pandas as pd
-import sqlalchemy
 import yfinance as yf
 
 st.title('Financial Dashboard')
 
-engine = sqlalchemy.create_engine('sqlite:///fundamentals.db')
 
-df = pd.read_sql('fundamentals', engine, index_col=['symbol'])
+
+df = pd.read_csv('fundamentals.csv', index_col=['symbol'])
 
 drop_down_I = st.selectbox('Choose a sector',
                             df.sector.unique())
