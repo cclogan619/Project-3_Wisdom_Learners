@@ -6,7 +6,7 @@ st.title('Financial Dashboard')
 
 
 
-df = pd.read_csv('fundamentals.csv', index_col=['symbol'])
+df = pd.read_csv('PROJECT_3_MASTER_FILES/fundamentals.csv', index_col=['symbol'])
 
 drop_down_I = st.selectbox('Choose a sector',
                             df.sector.unique())
