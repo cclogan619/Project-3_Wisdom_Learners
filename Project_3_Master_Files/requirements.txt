@@ -4,6 +4,5 @@ sqlalchemy
 yfinance
 datetime
 fbprophet
-plot_plotly
 numpy
 
