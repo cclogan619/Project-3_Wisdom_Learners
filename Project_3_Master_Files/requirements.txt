@@ -4,5 +4,4 @@ sqlalchemy
 yfinance
 datetime
 prophet 
-prophet.plot 
-import 
+numpy
