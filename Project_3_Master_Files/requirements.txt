@@ -4,5 +4,6 @@ sqlalchemy
 yfinance
 datetime
 fbprophet 
+from fbprophet import Prophet
 numpy
 pystan==2.19.1.1
