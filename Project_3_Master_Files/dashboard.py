@@ -48,7 +48,7 @@ forcast = m.predict(future)
 st.subheader('Forcast Data')
 st.write(forcast.tail())
 
-st.title('1 Year Forcast - Facebook Prophet')
+st.title('Forcast - Facebook Prophet')
 st.write('forcast data')
 fig1 = plot_plotly(m, forcast)
 st.plotly_chart(fig1)
