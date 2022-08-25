@@ -50,7 +50,7 @@ st.write(forcast.tail())
 
 st.title('Forcast - Facebook Prophet')
 st.write('forcast data')
-fig1 = plot_plotly(m, forcast)
+fig1 = plot_plotly(forcast)
 st.plotly_chart(fig1)
 
 st.write('forcast components')
