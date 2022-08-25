@@ -10,9 +10,11 @@ import numpy as np
 st.title('Financial Dashboard')
 
 
+# Use this for working on streamlit
+df = pd.read_csv('Project_3_Master_Files/fundamentals.csv', index_col=['symbol'])
 
-# df = pd.read_csv('Project_3_Master_Files/fundamentals.csv', index_col=['symbol'])
-df = pd.read_csv('fundamentals.csv', index_col=['symbol'])
+# Use this for working on localhost
+# df = pd.read_csv('fundamentals.csv', index_col=['symbol'])
 
 drop_down_I = st.selectbox('Choose a sector',
                             df.sector.unique())
