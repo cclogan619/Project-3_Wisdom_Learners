@@ -3,5 +3,6 @@ pandas
 sqlalchemy
 yfinance
 datetime
-prophet 
+fbprophet 
 numpy
+pystan==2.19.1.1
