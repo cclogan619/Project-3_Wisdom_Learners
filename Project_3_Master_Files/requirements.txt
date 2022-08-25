@@ -4,6 +4,7 @@ sqlalchemy
 yfinance
 datetime
 fbprophet 
-from fbprophet import Prophet
+Prophet
+plot_plotly
 numpy
-pystan==2.19.1.1
+
