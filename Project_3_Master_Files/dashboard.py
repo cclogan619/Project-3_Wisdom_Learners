@@ -10,10 +10,10 @@ st.title('Financial Dashboard')
 
 
 # Use this for working on streamlit
-df = pd.read_csv('Project_3_Master_Files/fundamentals.csv', index_col=['symbol'])
+#df = pd.read_csv('Project_3_Master_Files/fundamentals.csv', index_col=['symbol'])
 
 # Use this for working on localhost
-# df = pd.read_csv('fundamentals.csv', index_col=['symbol'])
+df = pd.read_csv('fundamentals.csv', index_col=['symbol'])
 
 drop_down_I = st.selectbox('Choose a sector',
                             df.sector.unique())
@@ -58,3 +58,33 @@ fig2 = m.plot_components(forcast)
 st.write(fig2)
 
 st.write("Learn More about Options [http://github.com/cclogan619/Project-3_Wisdom_Learners/Catherine_Files/Robinhood_Options_Training.pdf](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
+
+#API call from rapidapi.com for CCL
+import requests
+import pandas as pd
+import numpy as np
+import alpaca_trade_api as tradeapi
+import streamlit as st
+from pathlib import Path
+
+st.title('Options Chain')
+st.header('Company Information - Ticker: CCL')
+
+drop_down_I = st.selectbox(
+     'Select an expiration date for CCL',
+     ('August 19', 'August 26', 'September 2'))
+
+if drop_down_I == "August 19":
+    df = pd.read_csv(Path("./Aug_19.csv"))
+elif drop_down_I == "August 26":
+    df = pd.read_csv(Path("./Aug_26.csv"))
+else: df = pd.read_csv(Path("./Sept_2.csv"))
+
+
+
+st.write('You selected:', drop_down_I)
+#st.write(df)
+
+
+st.header('Options Chain - Ticker: CCL - Calls and Puts')
+st.write(df)
