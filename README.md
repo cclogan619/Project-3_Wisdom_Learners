@@ -14,19 +14,19 @@ At one point, we had a working model that would allow the User to enger any vali
 
 In Streamlit, SQL databases were called and successfully deployed along with drop down menus for various selections by the User who would then enjoy bar charts and line graphs.  The selection offered to the User to pick a valid Ticker works famously and populates further functionality, albeit undeployed.  Below, you'll see a screenshot of the presentation initiatially seen by the User, including the first drop-down menu.  
 
-![Stream_lit](Initial_streamlit_screen.png)
+![Stream_lit](https://github.com/cclogan619/Project-3_Wisdom_Learners/blob/main/Final_staging_folder/images/Initial_Streamlit_screen.png)
 
 The upper section is composed of sector analyses and then specific metrics related to that sector.  As seen below, the lower drop down is a selection of metrics and then the bar chart results.
 
-![Second_drop_down](Second_drop_down.png)
+![Second_drop_down](https://github.com/cclogan619/Project-3_Wisdom_Learners/blob/main/Final_staging_folder/images/Second_drop_down.png)
 
 And, the results:
 
-![Sector_metrics_results](sector_metrics_results.png)
+![Sector_metrics](https://github.com/cclogan619/Project-3_Wisdom_Learners/blob/main/Final_staging_folder/images/Sector_metrics_results.png)
 
 The next section below turns from sector specific to company specific.  A User can input any valid Ticker and see the analysis of the .describe() attribute for the stock DataFrame as well as the latest line graph of the selected stock.  A text box allows the User to choose which company to review, as seen below.
 
-![Company_info_ticker](Company_info_ticker.png)
+![Company_info_ticker](https://github.com/cclogan619/Project-3_Wisdom_Learners/blob/main/Final_staging_folder/images/Company_info_ticker.png)
 
 The next section employs Facebook's Prophet application.  
 
@@ -37,9 +37,9 @@ The next section employs Facebook's Prophet application.
 
 The section below that is where all of the option data magic was supposed to occur.  What we ended up with was three options chains for CCL (Carnival Cruise Lines) with a drop down menu giving the User the ability to choose between 3 different expiration dates.  An options chain corresponding to these expiration dates is then posted.  These are pulled from CSV files from screen scrapes only.  No functionality from an API was demystified and resolved, as seen below.  
 
-![Options_menu](options_menu.png)
+![Options_menu](https://github.com/cclogan619/Project-3_Wisdom_Learners/blob/main/Final_staging_folder/images/Options_menu.png)
 
-![Options_chain](options_chain.png)
+![Options_chain](https://github.com/cclogan619/Project-3_Wisdom_Learners/blob/main/Final_staging_folder/images/Options_chain.png)
 
 A link is provided for those that seek additional information about options and options strategies. 
 
