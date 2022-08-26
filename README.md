@@ -58,7 +58,7 @@ This particular program will run on Windows 10 via VS Code which launches Stream
 ## Installation Guide
 
 ### Make sure all files are in the same directory. 
-Utilizing VS Code, in the explorer window and the terminal below, navigate to the folder "Project 3 Master Files."  From there, the User can launch this program by typing in the terminal (making sure that the terminal is navigated to the folder containing the program files) and type: 
+Utilizing VS Code, in the explorer window and the terminal below, navigate to the folder "Final_staging_folder."  From there, the User can launch this program by typing in the terminal (making sure that the terminal is navigated to the folder containing the program files) and type: 
 
 *Streamlit run dashboard.py*  
 
